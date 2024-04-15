@@ -10,9 +10,7 @@ namespace PatternState.State
     {
         public void Action(CustomerContext customerContext)
         {
-            Console.WriteLine("Estado pendiente");
             Console.WriteLine("Puede pasar a revisión o solucionado");
-
         }
     }
 }

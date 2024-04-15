@@ -11,7 +11,7 @@ namespace PatternState.State
         public void Action(CustomerContext customerContext)
         {
             Console.WriteLine("Cerrado, no puede cambiar de estado");
-            customerContext.Requesst();
+
         }
     }
 }

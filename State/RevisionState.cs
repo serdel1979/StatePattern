@@ -10,9 +10,7 @@ namespace PatternState.State
     {
         public void Action(CustomerContext customerContext)
         {
-            Console.WriteLine("En revision");
             Console.WriteLine("Puede pasar a cerrado o solucionado");
-            customerContext.Requesst();
         }
     }
 }
